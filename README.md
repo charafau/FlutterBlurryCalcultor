@@ -1,16 +1,9 @@
-# calculator
+This is small project for Linux and Flutter using transparent gtk window and flutter on top.
 
-A new Flutter project.
+If you want to have blurry background you need appropriate compositor with blur function like wayfire
 
-## Getting Started
+Sample calculator ported from https://github.com/dahliaOS/calculator
 
-This project is a starting point for a Flutter application.
+Small bug for first repaint, you need to resize it first to reinit flutter painting
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![screenshot](screenshot.png)
